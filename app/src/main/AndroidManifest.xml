@@ -24,6 +24,18 @@
             android:label="@string/title_activity_fullscreen_activity2"
             android:theme="@style/FullscreenTheme" >
         </activity>
+        <activity
+            android:name=".StudentStatus"
+            android:label="@string/title_activity_student_status" >
+        </activity>
+        <activity
+            android:name=".Gender"
+            android:label="@string/title_activity_gender" >
+        </activity>
+        <activity
+            android:name=".EmploymentStatus"
+            android:label="@string/title_activity_employment_status" >
+        </activity>
     </application>
 
 </manifest>

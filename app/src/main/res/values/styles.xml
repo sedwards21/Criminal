@@ -2,8 +2,20 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
         <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+
+
+    </style>
+
+    <style name="ActionBarStyle" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:colorBackground">#9e1b32</item>
+        <item name="android:background">#9e1b32</item>
     </style>
 
     <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
@@ -11,6 +23,16 @@
         <item name="android:windowBackground">@null</item>
         <item name="metaButtonBarStyle">@style/ButtonBar</item>
         <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="buttonStyle" >
+        <item name="android:colorBackground">#9e1b32</item>
+         <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/imageButton1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+
     </style>
 
     <style name="ButtonBar">
